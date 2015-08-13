@@ -20,6 +20,7 @@ group :test do
   gem 'simplecov'
   gem 'sinatra', '~> 1.3'
   gem 'typhoeus', '~> 0.3.3', :platforms => [:ruby_18, :ruby_19, :ruby_20, :ruby_21]
+  gem 'curb', '~> 0.8.6', :platforms => [:ruby_18, :ruby_19, :ruby_20, :ruby_21]
 end
 
 gemspec
